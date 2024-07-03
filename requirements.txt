@@ -1,0 +1,8 @@
+Flask
+Flask-CORS
+SpeechRecognition
+transformers
+torch
+textwrap3
+huggingface-hub
+gtts
