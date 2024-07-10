@@ -6,3 +6,5 @@ torch
 textwrap3
 huggingface-hub
 gtts
+bitsandbytes
+langchain_community
