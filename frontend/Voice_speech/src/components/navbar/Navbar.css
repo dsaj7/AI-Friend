@@ -1,0 +1,59 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 14px;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar .logo {
+    padding-left: 28px;
+    font-size: 22px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.navbar .logo span {
+    color: red;
+}
+
+.navbar .signup {
+    padding-right: 48px;
+}
+
+.navbar .signup button {
+    font-size: 20px;
+    padding: 10px 16px;
+    background-color: #0000ff;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar .signup button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .navbar .logo {
+        padding-left: 17px;
+        font-size: 18px;
+    }
+
+    .navbar .signup {
+        padding-right: 21px;
+    }
+    
+    .navbar .signup button {
+        font-size: 15px;
+        padding: 8px 15px;
+    }
+}
